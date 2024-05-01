@@ -27,10 +27,12 @@ else if(t == 'B'){      //move reverse (all  motors rotate in reverse direction)
   
 else if(t == 'L'){      //turn right (left side motors rotate in forward direction,  right side motors doesn't rotate)
   digitalWrite(4,HIGH);
+  digitalWrite(5,HIGH);
 }
  
 else  if(t == 'R'){      //turn left (right side motors rotate in forward direction, left  side motors doesn't rotate)
   digitalWrite(11,HIGH);
+  digitalWrite(10,HIGH);
 }
 
 else if(t == 'S'){      //STOP (all motors stop)
